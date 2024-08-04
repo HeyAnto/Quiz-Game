@@ -1,0 +1,202 @@
+{   
+    "quiz_history": {
+        "title": "History Quiz",
+        "questions": [
+            {
+                "question": "Which event marks the beginning of the French Revolution?",
+                "image": "Assets/Quizz/History/img-history-q1.webp",
+                "answers": ["The Storming of the Bastille", "The Fall of Napoleon", "The Abolition of the Monarchy", "The Declaration of the Rights of Man and of the Citizen"],
+                "correct": 0
+            },
+            {
+                "question": "Which empire was founded by Charlemagne in 800?",
+                "image": "Assets/Quizz/History/img-history-q2.webp",
+                "answers": ["The Ottoman Empire", "The Carolingian Empire", "The Byzantine Empire", "The Roman Empire"],
+                "correct": 1
+            },
+            {
+                "question": "Who discovered America in 1492?",
+                "image": "Assets/Quizz/History/img-history-q3.webp",
+                "answers": ["Marco Polo", "Ferdinand Magellan", "Christopher Columbus", "Vasco da Gama"],
+                "correct": 2
+            },
+            {
+                "question": "Which treaty ended World War I?",
+                "image": "Assets/Quizz/History/img-history-q4.webp",
+                "answers": ["The Treaty of Trianon", "The Treaty of Brest-Litovsk", "The Treaty of Versailles", "The Treaty of Saint-Germain"],
+                "correct": 2
+            },
+            {
+                "question": "Which country was led by Adolf Hitler during World War II?",
+                "image": "Assets/Quizz/History/img-history-q5.webp",
+                "answers": ["Italy", "Germany", "Japan", "Spain"],
+                "correct": 1
+            },
+            {
+                "question": "Which famous wall fell in 1989, marking the end of the Cold War?",
+                "image": "Assets/Quizz/History/img-history-q6.webp",
+                "answers": ["The Berlin Wall", "The Great Wall of China", "The Moscow Wall", "Hadrian's Wall"],
+                "correct": 0
+            },
+            {
+                "question": "Who was the first president of the United States?",
+                "image": "Assets/Quizz/History/img-history-q7.webp",
+                "answers": ["Thomas Jefferson", "John Adams", "George Washington", "Abraham Lincoln"],
+                "correct": 2
+            },
+            {
+                "question": "Which ancient civilization is known for its pyramids?",
+                "image": "Assets/Quizz/History/img-history-q8.webp",
+                "answers": ["The Greeks", "The Romans", "The Egyptians", "The Mesopotamians"],
+                "correct": 2
+            },
+            {
+                "question": "Which revolution took place in Russia in 1917?",
+                "image": "Assets/Quizz/History/img-history-q9.webp",
+                "answers": ["The Industrial Revolution", "The October Revolution", "The Cultural Revolution", "The Green Revolution"],
+                "correct": 1
+            },
+            {
+                "question": "Who is considered the father of modern medicine?",
+                "image": "Assets/Quizz/History/img-history-q10.webp",
+                "answers": ["Socrates", "Hippocrates", "Aristotle", "Plato"],
+                "correct": 1
+            }
+            
+        ]
+    },
+
+    "quiz_esport": {
+        "title": "eSport Quiz",
+        "questions": [
+            {
+                "question": "Which game is often considered the pioneer of modern eSports?",
+                "image": "Assets/Quizz/eSport/img-esport-q1.webp",
+                "answers": ["Quake", "StarCraft", "Counter-Strike", "Dota 2"],
+                "correct": 1
+            },
+            {
+                "question": "What is the most prestigious competition in «League of Legends»?",
+                "image": "Assets/Quizz/eSport/img-esport-q2.webp",
+                "answers": ["The International", "The Major Championship", "The World Championship", "The Invitational"],
+                "correct": 2
+            },
+            {
+                "question": "Which player is known by the nickname «Faker» in the world of «League of Legends»?",
+                "image": "Assets/Quizz/eSport/img-esport-q3.webp",
+                "answers": ["Lee Sang-hyeok", "KuroKy", "S1mple", "Shroud"],
+                "correct": 0
+            },
+            {
+                "question": "Which game is associated with the competition «The International»?",
+                "image": "Assets/Quizz/eSport/img-esport-q4.webp",
+                "answers": ["Overwatch", "Fortnite", "Dota 2", "Call of Duty"],
+                "correct": 2
+            },
+            {
+                "question": "Which eSports organization is often abbreviated as «Fnatic»?",
+                "image": "Assets/Quizz/eSport/img-esport-q5.webp",
+                "answers": ["FaZe Clan", "Evil Geniuses", "Team Liquid", "Fnatic"],
+                "correct": 3
+            },
+            {
+                "question": "Which game popularized the Battle Royale genre?",
+                "image": "Assets/Quizz/eSport/img-esport-q6.webp",
+                "answers": ["Call of Duty", "PUBG", "Halo", "FIFA"],
+                "correct": 1
+            },
+            {
+                "question": "Which first-person shooter game has a competitive scene called the «Majors»?",
+                "image": "Assets/Quizz/eSport/img-esport-q7.webp",
+                "answers": ["Apex Legends", "Counter-Strike: Global Offensive", "Rainbow Six Siege", "Valorant"],
+                "correct": 1
+            },
+            {
+                "question": "Which team won the first «Overwatch League Grand Finals» in 2018?",
+                "image": "Assets/Quizz/eSport/img-esport-q8.webp",
+                "answers": ["San Francisco Shock", "Seoul Dynasty", "London Spitfire", "Shanghai Dragons"],
+                "correct": 2
+            },
+            {
+                "question": "Which country is often considered the global capital of eSports?",
+                "image": "Assets/Quizz/eSport/img-esport-q9.webp",
+                "answers": ["United States", "South Korea", "China", "Germany"],
+                "correct": 1
+            },
+            {
+                "question": "Which professional «Fortnite» player won the Solo World Cup in 2019?",
+                "image": "Assets/Quizz/eSport/img-esport-q10.webp",
+                "answers": ["Ninja", "Tfue", "Bugha", "Myth"],
+                "correct": 2
+            }
+            
+        ]
+    },
+
+    "quiz_starwars": {
+        "title": "Star Wars Quiz",
+        "questions": [
+            {
+                "question": "How many ruling families are there in the Chiss Ascendancy in 19 BBY?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q1.webp",
+                "answers": ["10", "13", "40", "9"],
+                "correct": 3
+            },
+            {
+                "question": "Who founded the Rule of Two?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q2.webp",
+                "answers": ["Darth Zannah", "Darth Plagueis", "Exar Kun", "Darth Bane"],
+                "correct": 3
+            },
+            {
+                "question": "When did Order 66 begin?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q3.webp",
+                "answers": ["00 BBY", "10 BBY", "19 BBY", "23 BBY"],
+                "correct": 2
+            },
+            {
+                "question": "What was the dramatic operation following the Emperor's death?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q4.webp",
+                "answers": ["Operation Cinder", "Operation Black Saber", "Order 66", "Operation Reconquest"],
+                "correct": 0
+            },
+            {
+                "question": "What is the color of the milk seen for the first time?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q5.webp",
+                "answers": ["Green", "Blue", "Red", "Yellow"],
+                "correct": 1
+            },
+            {
+                "question": "Who is the Chancellor of the New Republic in 5 ABY?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q6.webp",
+                "answers": ["Leia Organa", "Mon Mothma", "Hera Syndulla", "Padmé Amidala"],
+                "correct": 1
+            },
+            {
+                "question": "What is the name of the power that links Osha and Mae?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q7.webp",
+                "answers": ["Duplication", "Vergence", "The Power of Two", "The Dark Side"],
+                "correct": 2
+            },
+            {
+                "question": "What was Reva before joining the Empire?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q8.webp",
+                "answers": ["A smuggler", "A bounty hunter", "A crime lord", "Youngling"],
+                "correct": 3
+            },
+            {
+                "question": "Who is the Jedi Master of the Second Sister?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q9.webp",
+                "answers": ["Luminara Unduli", "Jocasta Nu", "Cere Junda", "Ahsoka Tano"],
+                "correct": 2
+            },
+            {
+                "question": "Which Sith has the ability to absorb the energy of entire planets?",
+                "image": "Assets/Quizz/StarWars/img-starwars-q10.gif",
+                "answers": ["Darth Tenebrous", "Darth Malgus", "Darth Nihilus", "Darth Nox"],
+                "correct": 2
+            }
+            
+        ]
+    }
+}

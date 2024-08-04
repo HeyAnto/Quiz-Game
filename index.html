@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="icon" href="/Assets/Icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="selection-page">
+        <header>
+            <img src="Assets/Icons/Logo.svg"/>
+            <h1>Quiz App</h1>
+        </header>
+        
+        <div class="selection-quiz">
+
+            <a class="quiz-card" onclick="startQuiz('quiz_history')">
+                <div class="quiz-card-cover">
+                    <img class="quiz-card-img" src="Assets/Quizz/History/img-history-cover.webp"/>
+                </div>
+                <div class="quiz-card-title">
+                    <h3>History Quiz</h3>
+                    <p class="p-2">10 Questions in 5 minutes</p>
+                </div>
+                <div class="quiz-easy-tag">
+                    <p class="p-2">Easy</p>
+                </div>
+            </a>
+
+            <a class="quiz-card" onclick="startQuiz('quiz_esport')">
+                <div class="quiz-card-cover">
+                    <img class="quiz-card-img" src="Assets/Quizz/eSport/img-esport-cover.webp"/>
+                </div>
+                <div class="quiz-card-title">
+                    <h3>eSport Quiz</h3>
+                    <p class="p-2">10 Questions in 5 minutes</p>
+                </div>
+                <div class="quiz-medium-tag">
+                    <p class="p-2">Medium</p>
+                </div>
+            </a>
+
+            <a class="quiz-card" onclick="startQuiz('quiz_starwars')">
+                <div class="quiz-card-cover">
+                    <img class="quiz-card-img" src="Assets/Quizz/StarWars/img-starwars-cover.webp"/>
+                </div>
+                <div class="quiz-card-title">
+                    <h3>Star Wars Quiz</h3>
+                    <p class="p-2">10 Questions in 5 minutes</p>
+                </div>
+                <div class="quiz-hard-tag">
+                    <p class="p-2">Hard</p>
+                </div>
+            </a>
+
+        </div>
+
+        <footer>
+            <div class="footer-social">
+                <a class="social-icon" href="https://www.instagram.com/antoooo.xyz/" target="_blank"><img src="Assets/Icons/icon-instagram.svg" alt="Instagram"/></a>
+                <a class="social-icon" href="https://www.linkedin.com/in/antoooo/" target="_blank"><img src="Assets/Icons/icon-linkedin.svg" alt="LinkedIn"/></a>
+                <a class="social-icon" href="https://twitter.com/antoooo_sio" target="_blank"><img src="Assets/Icons/icon-x.svg" alt="X"/></a>
+                <a class="social-icon" href="https://bento.me/antoooo" target="_blank"><img src="Assets/Icons/icon-bento.svg" alt="Bento"/></a>
+            </div>
+            <p class="p-2">By Antonin SIOLY</p>
+        </footer>
+    </div>
+
+    <div id="quiz-page" style="display: none;">
+        <header>
+            <img src="Assets/Icons/Logo.svg"/>
+            <h1>Quiz App</h1>
+        </header>
+        <div class="quiz">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <h2 id="quiz-title"></h2>
+                    <p id="question-counter"></p>
+                </div>
+                <div class="quiz-timer">
+                    <img src="Assets/Icons/icon-timer.svg"/>
+                    <p id="quiz-timer"></p>
+                </div>
+            </div>
+            <div class="sep"></div>
+            <h3 id="quiz-question-title"></h3>
+            <img id="quiz-question-image" src="" alt="Image Question" style="display: none;">
+            <div id="quiz-btn">
+                <a class="quiz-answer-btn" onclick="selectAnswer(0)"></a>
+                <a class="quiz-answer-btn" onclick="selectAnswer(1)"></a>
+                <a class="quiz-answer-btn" onclick="selectAnswer(2)"></a>
+                <a class="quiz-answer-btn" onclick="selectAnswer(3)"></a>
+            </div>
+            <div class="quiz-footer">
+                <a id="back-btn" onclick="goToSelection()">
+                    <img class="icon-back-btn" src="Assets/Icons/icon-back-btn.svg" />
+                </a>
+                <a id="next-btn" class="inactive" onclick="nextQuestion()">Next</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="score-page" style="display: none;">
+        <header>
+            <img src="Assets/Icons/Logo.svg"/>
+            <h1>Quiz App</h1>
+        </header>
+
+        <div class="score">
+            <div class="score-title">
+                <h2>Score</h2>
+                <p id="score"></p>
+            </div>
+            <a class="return-button" onclick="goToSelection()">Return to selection</a>
+        </div>
+
+        <footer>
+            <div class="footer-social">
+                <a class="social-icon" href="https://www.instagram.com/antoooo.xyz/" target="_blank"><img src="Assets/Icons/icon-instagram.svg" alt="Instagram"/></a>
+                <a class="social-icon" href="https://www.linkedin.com/in/antoooo/" target="_blank"><img src="Assets/Icons/icon-linkedin.svg" alt="LinkedIn"/></a>
+                <a class="social-icon" href="https://twitter.com/antoooo_sio" target="_blank"><img src="Assets/Icons/icon-x.svg" alt="X"/></a>
+                <a class="social-icon" href="https://bento.me/antoooo" target="_blank"><img src="Assets/Icons/icon-bento.svg" alt="Bento"/></a>
+            </div>
+            <p class="p-2">By Antonin SIOLY</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
