@@ -70,6 +70,16 @@ h3 {
     height: 100vh;
 }
 
+@media screen and (max-width: 600px) {
+    #selection-page {
+        justify-content: center;
+        padding: 50px 10px;
+        gap: 50px;
+    
+        height: auto;
+    }
+}
+
 header {
     display: flex;
     flex-direction: row;
